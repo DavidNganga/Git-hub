@@ -1,0 +1,14 @@
+<div *ngIf="profile">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      {{profile.name}}
+    </div>
+    <div class="panel-body">
+      <div class="row">
+        <div class="col-md-3">
+          <img src="{{profile.avatar_url}}" class="img-circle" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
