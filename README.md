@@ -6,9 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Git-hub is an application that enables whoever is using it to search for a github username and in turn get the avatar and github repositories belonging to the user.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Build
 
