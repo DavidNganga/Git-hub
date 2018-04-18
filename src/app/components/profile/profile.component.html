@@ -2,7 +2,7 @@
 <div class='row'>
 <form action="">
   <div class="form-group">
-    <input type="text" class="form-control" placeholder="insert username" [(ngModel)]="username" name="username" (keyup)="getProfile()">
+    <input type="text" class="form-control" id="haha" placeholder="insert username" [(ngModel)]="username" name="username" (keyup)="getProfile()">
   </div>
 
 </form>
@@ -29,10 +29,10 @@
               </p>
 
 
-            <div class="panel panel-default">
-              <div class="panel-heading">
+             <div class="panel panel-default">
+              <div class="panel-heading"> 
                 <h3 class="panel-title">Repos</h3>
-              </div>
+               </div> 
               <div class="panel-body" *ngFor="let repo of repos">
                 <p>
                   {{repo.name}} <a href="{{repo.html_url}}" class="btn btn -sm btn-warn">view this project</a>
