@@ -1,3 +1,5 @@
+<div class='container'>
+<div class='row'>
 <form action="">
   <div class="form-group">
     <input type="text" class="form-control" placeholder="insert username" [(ngModel)]="username" name="username" (keyup)="getProfile()">
@@ -13,16 +15,20 @@
     <div class="panel-body">
       <div class="row">
         <div class="col-md-3">
-          <img src="{{profile.avatar_url}}" class="img-circle img-responsive" alt="profile image">
+          <img src="{{profile.avatar_url}}" class="img-circle img-fluid"  alt="profile image">
         </div>
         <div class="col-md-6">
           <div>
             <p>
               <span class="label label-default">{{profile.public_repos}} Public Repos</span>
             </p>
-            <p>
-              <a href="{{profile.html_url}}" class="btn btn-success">View profile on github</a>
-            </p>
+
+
+              <p>
+                <a href="{{profile.html_url}}" class="btn btn-success">View profile on github</a>
+              </p>
+
+
             <div class="panel panel-default">
               <div class="panel-heading">
                 <h3 class="panel-title">Repos</h3>
@@ -39,3 +45,6 @@
     </div>
   </div>
 </div>
+</div>
+</div>
+
